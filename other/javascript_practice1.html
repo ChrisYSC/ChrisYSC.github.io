@@ -1,0 +1,56 @@
+<html>
+
+<head>
+  <title>Javascript Practice</title>
+    <script type="text/javascript">
+      // Declares a variable
+      var x = 3;
+      //Declares a function
+      function generateFunny() {
+        var funnyPhrases = [
+         "Yeat",
+         "Lebron",
+         "Christain mom",
+         "Will smith smack chris rock",
+         "Jeff102",
+         "Mayionaise with mustard."
+       ];
+        var funnyWords = document.getElementById('funnyWords');
+        funnyWords.innerHTML = funnyPhrases[rollDie() -1];
+      }
+      // Return a number between 1 and 6.
+      function rollDie() {
+        var newNumber = Math.random()
+        newNumber = newNumber * 6
+        newNumber = Math.ceil(newNumber)
+        return newNumber
+      }
+      //Put a random number in the dieBox.
+      function GetDieRoll(){
+        var dieBox = document.getElementById("dieBox");
+        dieBox.innerHTML = rollDie();
+      }
+
+      // test using lists.
+      // var itemList = ["Diamond Sword", "Diamond Pickaxe", "Golden Apple", "Magenta Wool"];
+      // console.log(itemList[0]);
+      // console.log(itemList[1]);
+      // console.log(itemList[2]);
+      // console.log(itemList[3]);
+      // console.log(itemList[x]);
+      //The code above is called zomie code.
+      //it's code saved for later that we do not use
+    </script>
+  </head>
+
+<body>
+<h1>weclome</h1>
+<h2 id="funnyWords" onclick="generateFunny()">Funny words here...</h2>
+<div id="dieBox" onclick="GetDieRoll()">
+  Click to roll the die...
+
+
+</div>
+</body>
+
+</html>

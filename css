@@ -1,0 +1,117 @@
+div {
+  background-color: white;
+  border: 2px solid #000000;
+}
+
+#conBox{
+  border: 1px solid blue;
+}
+
+  #headerBox {
+border: 1px
+  }
+
+ .paraBox {
+   border: 1px solid black;
+   margin: 20px;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+ }
+.Home {
+  display: inline;
+}
+div {
+  border: 2px solid #000000;
+  padding: 10px;
+}
+.parent {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.child{
+  display: inline;
+}
+body {
+
+height: 100%;
+}
+
+.thumbsBox {
+width: 50%;
+height: 50%;
+
+text-align: center;
+font-size: large;
+
+}
+
+.pTop {
+Position: absolute;
+top: 0px;
+}
+
+.pBot {
+Position: absolute;
+bottom: 0px;
+}
+
+.pLeft {
+Position: absolute;
+left: 0px;
+}
+
+.pRight {
+Position: absolute;
+right: 0px;
+}
+
+#tUp {
+background-color: #00ff00;
+border: 5px solid #000000;
+}
+
+#tWiggle {
+background-color: #00ffff;
+border: 5px solid #000000;
+}
+
+#tDown {
+background-color: #ff0000;
+border: 5px solid #000000;
+}
+
+#tOops {
+background-color: #cccc00;
+border: 5px solid #000000;
+}
+
+#tUp:hover {
+background-color: #ffffff;
+}
+
+#tDown:hover {
+background-color: #ffffff;
+}
+
+#tWiggle:hover {
+background-color: #ffffff;
+}
+
+#tOops:hover {
+background-color: #ffffff;
+}
+.navBox {
+  border: 2px solid #000000;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.page {
+  border: 3px solid #000000;
+  padding: 3px;
+  display: inline;
+}
